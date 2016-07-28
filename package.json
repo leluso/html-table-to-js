@@ -1,0 +1,19 @@
+{
+  "name": "html-table-to-js",
+  "version": "1.0.0",
+  "description": "A simple HTML table -> JS Object converter / scraper, for Hockey Relativity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leluso/html-table-to-js.git"
+  },
+  "author": "Justin Barber <barber@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leluso/html-table-to-js/issues"
+  },
+  "homepage": "https://github.com/leluso/html-table-to-js#readme"
+}
