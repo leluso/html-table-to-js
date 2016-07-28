@@ -4,7 +4,7 @@ module.exports = function(s) {
   let $ = s;
 
   function get(headerSelector, rowsSelector) {
-    let headerTr = $(headerSelector);
+    let headerTr = $(headerSelector)[0];
     let rows = $(rowsSelector);
 
     let columns = [];
