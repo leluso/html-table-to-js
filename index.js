@@ -27,13 +27,13 @@ module.exports = function(s) {
       for(let h = 0; h < columns.length; h++) {
         let column = columns[h];
         if(column.width === 1) {
-          rowMap[column.value] = row.children()[tdi].children[0].data.trim();
+          rowMap[column.value] = $(row.children()[tdi]).text().trim();
         }
 
         else {
           rowMap[column.value] = [];
           for(let i = 0; i < column.width; i++) {
-            rowMap[column.value].push(row.children()[tdi + i].children[0].data.trim());
+            rowMap[column.value].push($(row.children()[tdi + i]).text().trim());
           }
         }
 
